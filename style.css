@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border-style: none;
+    color: #fff;
+}
+
+.section {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+body {
+    background: #000000;
+    width: 100%;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+.welcome {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.welcome img {
+    width: 300px;
+}
+
+.welcome h1 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 40px;
+    letter-spacing: -0.3px;
+}
+
+.nome-atleta {
+    background: url(blur.png) no-repeat;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    text-transform: uppercase;
+    text-shadow: 0px 5.27273px 5.27273px rgba(0, 0, 0, 0.25);
+    display: flex;
+}
+
+.lista-treino {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botoes {
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 45px;
+}
+
+.botoes button {
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    border-radius: 6px;
+    width: 74px;
+    height: 36px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    letter-spacing: -0.3px;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.botoes button:hover {
+    background: #FFFFFF;
+    color: #000000;
+}
+
+main {
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.card-treino {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.treino {
+    width: 335px;
+    height: 77px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+.treino h2 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: -0.3px;
+    text-transform: uppercase;
+    font-feature-settings: 'tnum' on, 'onum' on;
+    color: #000000;
+}
+
+.treino p {
+    text-transform: uppercase;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    /* identical to box height */
+
+    letter-spacing: -0.3px;
+    font-feature-settings: 'tnum' on, 'onum' on;
+
+    color: #000000;
+
+    opacity: 0.5;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-bottom: 45px;
+    margin-top: 45px;
+    color: black;
+}
+
+.formulario input {
+    color: brown;
+    border-style: none;
+    height: 35px;
+    border: none;
+}
